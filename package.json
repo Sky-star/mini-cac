@@ -1,0 +1,14 @@
+{
+	"name": "mini-cac",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/Sky-star/mini-cac.git",
+	"author": "<417941258@qq.com>",
+	"license": "MIT",
+	"scripts": {
+		"test": "vitest"
+	},
+	"devDependencies": {
+		"vitest": "^0.17.0"
+	}
+}
