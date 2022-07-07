@@ -23,11 +23,6 @@ yarn test
 ## 分析目录
 
 - 什么类型的文件放到什么文件夹内
-
-      项目目录如下
-
-  ![](assets/16569835013244.jpg)
-
 .github: 放入与 git 相关文件
 examples: 放入项目示例代码
 scripts: 放入项目相关的脚本文件
@@ -258,3 +253,45 @@ Logo,Badge,介绍，库的特性，内容列表,内容列表下主要包括库�
   "exclude": ["src/deno.ts"]
 }
 ```
+
+## 画一下这个库的程序流程图
+
+## 尝试通过单元测试调试库
+
+## 这个库应该如何使用
+[部分翻译文档](./HowToUse.md)
+
+## 如何理解 option
+
+## 如何理解 command
+
+## 如何理解 action
+
+## 如何实现连续调用api
+
+## Brackets 应该如何使用
+
+## Brackets 是如何实现的
+
+## Negated Options 是如何实现的
+
+## 分析一下下面这段代码的执行流程
+```js
+    const cli = require('cac')()
+    
+    cli
+        .command('build', 'desc')
+        .option('--env <env>', 'Set envs')
+        .example('--env.API_SECRET xxx')
+        .action(options => {
+            console.log(options)
+        })
+    
+    cli.help()
+    
+    cli.parse()
+```
+
+## 还可以从功能上分解需求点
+
+## 程序等于数据结构 + 算法
